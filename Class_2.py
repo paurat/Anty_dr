@@ -4,7 +4,7 @@ from pylab import *# for plotting
 from PyQt5 import QtWidgets
 from pyqtgraph import PlotWidget, plot
 import pyqtgraph as pg
-import sys  # We need sys so that we can pass argv to QApplication
+import sys  # We need sys so that we can pass argv to QApplication)))
 import os
 class SDR_radio(object,):
     def __init__(self, min_freq, max_freq, step_freq_size):
